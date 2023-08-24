@@ -1,0 +1,12 @@
+1 - Porque en la programacion solo puede utilizarse en algunos sistemas operativos y en otros no?
+2 - Que tipo de maquinas virtuales soporta virtualBox?
+3 - Que funcion cumple el hypervisor en la virtualizacion?
+4 - Si tengo mas de una maquina virtual instalada, y una se rompe, esto afecta a las demas? Por que?
+
+1. La compatibilidad depende de factores tecnicos y diseño. Algunos lenguajes funcionan mejor en ciertos sistemas debido a bibliotecas, arquitecturas o herramientas especificas
+
+2. VirtualBox es un hipervisor que puede ejecutar multiples sistemas operativos como invitados, incluyendo Windows, Linux, macOS, etc.
+
+3. Un hipervisor permite que varios sistemas operativos se ejecuten en una misma maquina fisica. Administra recursos, aisla maquinas virtuales y facilita su control.
+
+4. En condiciones normales, una maquina virtual con problemas no afecta a otras, ya que estan aisladas. Excepciones pueden ocurrir si el hipervisor falla, pero esto es raro. Mantener las VM actualizadas es la clave para la seguridad.
